@@ -1,0 +1,3 @@
+<h3 class="ui top left attached label large">
+  {{label}} [{{id}}] ({{type}}) 
+</h3>

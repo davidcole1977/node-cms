@@ -1,0 +1,10 @@
+{
+  "type": "multiselect",
+  "options": [
+    {
+      "label": "",
+      "value": "",
+      "selected": false
+    }
+  ]
+}

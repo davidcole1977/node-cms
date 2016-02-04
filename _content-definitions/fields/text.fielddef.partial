@@ -1,0 +1,14 @@
+<section class="ui segment nodecms-field" tabindex="0" on-focus="focusfield">
+
+  {{> fieldheader }}
+  {{> fieldtoolbar }}
+
+  <div class="nodecms-field-content">
+
+    {{> fieldcommon }}
+
+    <label>Default Value</label> <input type="text" value="{{value}}"/>
+
+  </div>
+
+</section>

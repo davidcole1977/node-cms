@@ -1,0 +1,93 @@
+{
+  "label": "Mortgage Product",
+  "type": "mortgageproduct",
+  "fields": [
+    {
+      "label": "Mortgage Type",
+      "id": "type",
+      "type": "multiselect",
+      "options": [
+        {
+          "label": "First Time Buyer",
+          "value": "ftb",
+          "selected": "false"
+        },
+        {
+          "label": "Remortgage",
+          "value": "rm",
+          "selected": "true"
+        },
+        {
+          "label": "Buy To Let",
+          "value": "btl",
+          "selected": "false"
+        }
+      ]
+    },
+    {
+      "label": "Rates",
+      "id": "rates",
+      "type": "group",
+      "fields": [
+        {
+          "label": "One Year Rate",
+          "id": "oneyearrate",
+          "type": "text",
+          "value": "5"
+        },
+        {
+          "label": "Two Year Rate",
+          "id": "twoyearrate",
+          "type": "text",
+          "value": "4"
+        },
+        {
+          "label": "Three Year Rate",
+          "id": "threeyearrate",
+          "type": "text",
+          "value": "3"
+        },
+        {
+          "label": "Five Year Rate",
+          "id": "fiveyearrate",
+          "type": "text",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "label": "Initial rate",
+      "id": "initialrate",
+      "type": "text",
+      "value": "0"
+    },
+    {
+      "label": "Product Features",
+      "id": "features",
+      "type": "multiselect",
+      "options": [
+        {
+          "label": "Payment Holiday",
+          "value": "Payment Holiday",
+          "selected": "true"
+        },
+        {
+          "label": "Overpayments",
+          "value": "Overpayments",
+          "selected": "true"
+        },
+        {
+          "label": "Cash Back",
+          "value": "Cash Back",
+          "selected": "false"
+        }
+      ]
+    },
+    {
+      "label": "Featured Mortgage",
+      "id": "featuredmortgage",
+      "type": "boolean",
+      "selected": "false"
+    }
+  ]
+}

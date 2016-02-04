@@ -1,0 +1,12 @@
+{
+  "label": "foo boo",
+  "type": "fooboo",
+  "fields": [
+    {
+      "label": "boolean label",
+      "id": "booleanid",
+      "type": "boolean",
+      "selected": "true"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+<label>Label</label> <input type="text" value="{{label}}" required/><br />
+<label>ID</label> <input type="text" value="{{id}}" required pattern="[A-Za-z0-9_]+"/><br/>

@@ -1,0 +1,5 @@
+<div class="ui label large">
+  <i class="remove icon" on-click="removeArrayEntry"></i>
+  <i class="copy icon" on-click="duplicateArrayEntry"></i>
+  <i class="resize vertical icon" on-mousedown="startDraggingArrayEntry"></i>
+</div>

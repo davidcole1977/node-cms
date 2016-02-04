@@ -1,0 +1,28 @@
+<section class="ui segment nodecms-field" tabindex="0" on-focus="focusfield">
+
+  {{> fieldheader }}
+  {{> fieldtoolbar }}
+
+  <div class="nodecms-field-content">
+
+    {{> fieldcommon }}
+
+    <h4>Options</h4>
+
+    {{#each options}}
+
+      <div class="nodecms-field nodecms-field_option">
+
+        <label>Label</label> <input type="text" value="{{label}}" on-change="updateSelectOption" required />
+        <label>Value</label> <input type="text" value="{{value}}" on-change="updateSelectOption" required />
+        <label>Selected by default?</label> <input type="checkbox" checked="{{selected}}" on-change="updateSelectOption" />
+
+        {{> optiontoolbar }}
+
+      </div>
+
+    {{/each}}
+
+  </div>
+
+</section>

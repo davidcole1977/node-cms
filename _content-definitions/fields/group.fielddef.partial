@@ -1,0 +1,18 @@
+<section class="ui segment nodecms-field" tabindex="0" on-focus="focusfield">
+  
+  {{> fieldheader }}
+  {{> fieldtoolbar }}
+
+  <div class="nodecms-field-content">
+
+    {{> fieldcommon }}
+
+    <br />
+
+    {{> addFieldsMenu }}
+
+    {{> fieldsList }}
+
+  </div>
+
+</section>

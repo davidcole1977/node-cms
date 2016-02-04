@@ -1,0 +1,22 @@
+{
+  "data": {
+    "type": [
+      "rm"
+    ],
+    "rates": {
+      "oneyearrate": "5",
+      "twoyearrate": "4",
+      "threeyearrate": "3",
+      "fiveyearrate": "2"
+    },
+    "initialrate": "0",
+    "features": [
+      "Payment Holiday",
+      "Overpayments"
+    ],
+    "featuredmortgage": "false"
+  },
+  "type": "mortgageproduct",
+  "name": "dsf",
+  "label": "Mortgage Product"
+}
